@@ -1,4 +1,4 @@
-# Hack Week Beginner Division Day 2 Starter Code
+# Hack Week Beginner Division Day 2 Finished Code
 
 
 ## Installation
