@@ -1,0 +1,48 @@
+/*
+ * This is a tag selector. All h1 tags in the document will have this style
+ * applied.
+ */
+h1 {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+/*
+ * This is an id selector. Only one element in the document may have this id.
+ */
+#kittyville {
+  background-color: #0e76ec;
+  display: inline-block;
+}
+
+/*
+ * This is a class selector. Multiple elements may have the same class.
+ * It puts a dashed black border around the element.
+ */
+.border {
+  border: 3px dashed black;
+}
+
+/*
+ * This is another class selector.
+ * This puts a nice blue glow around the text inside the element.
+ */
+.glow {
+  text-shadow: 0 0 20px blue;
+}
+
+/*
+ * This is a descendant selector. Any image tags inside the element with the
+ * kittyvile ID will have this style applied.
+ */
+#kittyville img {
+  padding: 3px;
+}
+
+/*
+ * This is a class pseudoelement selector. Basically, it acts as if there is an
+ * invisible element after the currently selected element. This is more
+ * advanced CSS.
+ */
+.kitty::after {
+  content: " 😻";
+}
